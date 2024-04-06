@@ -1,0 +1,45 @@
+.card {
+  width: 305px;
+  height: 263px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3.98px 0px rgba(51, 51, 51, 0.15);
+  background: rgb(255, 255, 255);
+}
+
+.img__photo {
+  margin-top: 36px;
+  width: 124px;
+  height: 124px;
+  border-radius: 62px;
+  -webkit-border-radius: 62px;
+  -moz-border-radius: 62px;
+  -ms-border-radius: 62px;
+  -o-border-radius: 62px;
+}
+
+.name {
+  color: rgb(21, 19, 23);
+  line-height: 23px;
+}
+
+.like {
+  align-self: flex-end;
+  margin: auto 20px 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 28px;
+  border-radius: 4px;
+  background: rgb(248, 248, 248);
+  cursor: pointer;
+}
+
+.img__like {
+  width: 14px;
+  height: 12px;
+}

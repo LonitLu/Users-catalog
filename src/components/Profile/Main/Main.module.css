@@ -1,0 +1,39 @@
+.main {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 130px;
+}
+
+a {
+  color: rgb(21, 19, 23);
+  font-size: 16px;
+  line-height: 136.19%;
+}
+
+.main p {
+  max-width: 630px;
+  font-size: 16px;
+  line-height: 136.19%;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.phone,
+.mail {
+  display: flex;
+  gap: 9px;
+}
+
+@media (max-width: 900px) {
+  .main {
+    flex-direction: column-reverse;
+    gap: 32px;
+    margin: 32px 16px;
+
+  }
+}
